@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: gainsboro;
+}
+#header{
+    width: 900px;
+    height: 200px;
+    background-color: aqua;
+    display: flex;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+#titulo{
+    width: 700px;
+    height: 200px;
+    background-color: brown;
+}
+#menu, #footer{
+    width: 900px;
+    height: 50px;
+    background-color: yellow;
+}
+#cuerpo{
+    width: 900px;
+    height: 600px;
+    background-color: yellowgreen;
+    display: flex;
+}
+.lados{
+    width: 200px;
+    height: 600px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.caja1{
+    width: 200px;
+    height: 300px;
+    background-color: burlywood;
+}
+#centro{
+    width: 500px;
+    height: 600px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+.caja2{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
