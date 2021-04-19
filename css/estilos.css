@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+#header{
+    width: 900px;
+    height: 150px;
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+}
+#menu{
+    width: 900px;
+    height: 50px;
+    background-color: brown;
+    margin: 0 auto;
+}
+#cuerpo{
+    width: 900px;
+    height: 550px;
+    background-color: burlywood;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#pie{
+    width: 900px;
+    height: 50px;
+    background-color: rgb(26, 216, 89);
+    margin: 0 auto;
+}
+#izq{
+    width: 600px;
+    height: 550px;
+    background-color: rgb(246, 242, 9);
+}
+#der{
+    width: 300px;
+    height: 550px;
+    background-color: rgb(9, 45, 246);
+}

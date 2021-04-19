@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu{
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: brown;
+    display: flex;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    line-height: 3;
+    
+}
+.menu li{
+    flex: auto;
+    border-right: 1px solid rgb(231, 55, 55);
+    text-align: center;    
+}
+.menu li:last-child{
+    border-right: none;
+}
+.menu li:hover{
+    background-color: rgb(241, 82, 82);
+}

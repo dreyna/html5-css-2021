@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+}
+header{
+    width: 900px;
+    height: 150px;
+    background-color: aqua;
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    width: 900px;
+    height: 50px;
+    background-color: brown;
+    margin: 0 auto;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:flex;
+}
+nav li a{
+    color: white;
+    display:block;
+    text-decoration: none;
+    padding: .9em 5em;
+}
+#cuerpo{
+    width: 900px;
+    height: 550px;
+    background-color: burlywood;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    width: 900px;
+    height: 50px;
+    background-color: rgb(26, 216, 89);
+    margin: 0 auto;
+}
+#izq{
+    width: 600px;
+    height: 550px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+aside{
+    width: 300px;
+    height: 550px;
+    background-color: rgb(9, 45, 246);
+}
+
