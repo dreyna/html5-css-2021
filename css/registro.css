@@ -30,7 +30,11 @@ body{
 }
 #logo{
     width: 400px;
-    background-color: aliceblue;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(231, 229, 229);
 }
 main{
     width: 900px;
@@ -117,9 +121,8 @@ footer{
     border: none;
     border: 2px solid rgb(219, 217, 217);
     border-radius: 5px;
-    padding-left: 50px;
+    padding-left: 20px;
     margin-bottom: 10px;
-    padding-top: 5px;
     box-sizing: border-box;
 }
 .boton{
