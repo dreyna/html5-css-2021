@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    margin: 0 auto;
 }
 body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -12,10 +11,12 @@ body{
     height: 100px;
     background-color: aliceblue;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 #titulo{
     width: 500px;
-    font-size: 36px;
+    font-size: 28px;
     padding-left: 20px;
     background-color: rgba(255, 30, 0, 0.932);
     box-sizing: border-box;
@@ -33,20 +34,26 @@ body{
 }
 main{
     width: 900px;
-    height: 500px;
     background-color: aquamarine;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 aside{
     width: 300px;
-    height: 500px;
+    height: 600px;
     background-color: rgb(238, 238, 238);
 }
 section{
     width: 600px;
-    height: 500px;
+    height: 600px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 footer{
     width: 900px;
     height: 150px;
@@ -54,16 +61,106 @@ footer{
     display: flex;
     flex-direction: column;
     padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #pregunta{
     width: 900px;
     height: 50px;
-    display: flex;
-    font-size: 12px;
+    font-size: 14px;
     color: white;
-}
-#imagenes{
+    font-weight: bold;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
     box-sizing: border-box;
+}
+#imagenes{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#cab2{
+    width: 400px;
+    height: 100px;
+    background-color:rgba(255, 30, 0, 0.932);
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+#titulo2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;}
+#titulo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#form{
+    width: 500px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.control{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border: 2px solid rgb(219, 217, 217);
+    border-radius: 5px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.boton{
+    width: 365px;
+    height: 60px;
+    border: none;
+    border: 2px solid rgb(219, 217, 217);
+    border-radius: 5px;
+    background-color: rgba(255, 30, 0, 0.932);
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+#pie{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(105, 202, 247);
+    margin-top: 20px;
+}
+.texto{
+    text-align: left; 
+    width: 350px;
+    padding-bottom: 10px;
+    color: rgb(136, 130, 130);
+}
+.icono{
+    margin-right: 10px;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+  
+.icon {
+    padding: 10px;
+    color: green;
+    min-width: 50px;
+    text-align: center;
 }
